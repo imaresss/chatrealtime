@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular8-springboot-websocket"
+    }
+  },
+  "defaultProject": "angular8-springboot-websocket",
+  "cli": {
+    "analytics": "7f68b0b6-5aa3-44b4-bf0a-e4c61faa658a"
+  }
 }

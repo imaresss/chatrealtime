@@ -1,11 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';
+import { ChatComponentComponent } from './chat-component/chat-component.component';
 
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {path:':id', component: ChatComponentComponent},
+];   
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+
+
+  
+ }
